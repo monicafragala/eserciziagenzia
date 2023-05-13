@@ -1,0 +1,117 @@
+img {
+    max-width: 30%;
+}
+
+header,
+a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0%;
+    color: black;
+
+}
+
+li {
+    list-style-type: none;
+    font-size: 30px;
+}
+
+header {
+    display: grid;
+    min-width: 400px;
+    max-width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    justify-content: center;
+    gap: 80px;
+    border: solid 5px black;
+}
+
+nav a {
+    color: black;
+}
+
+.cod {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    
+
+}
+
+.contentart {
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.cool {
+    display: flex;
+    padding: 2%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    max-width: 20%;
+}
+
+.carota {
+    display: flex;
+    padding: 2%;
+    margin: auto;
+    justify-content: center;
+    align-items:end;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    max-width: 10%;
+    
+}
+
+.corrotto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: white;
+    box-decoration-break: slice;
+    background-color: black;
+    border-radius: 0,5cm;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    border: solid 3px black;
+}
